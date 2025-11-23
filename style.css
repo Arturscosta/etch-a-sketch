@@ -8,6 +8,12 @@ body {
   background-color: rgb(32, 28, 68);
 }
 
+p {
+  color: white;
+  font-size: 30px;
+  margin: 0;
+}
+
 #ui {
   display: flex;
   text-align: center;
@@ -23,6 +29,11 @@ h1 {
 }
 
 button {
+  font-size: 14px;
+}
+
+button:hover {
+  cursor: pointer;
 }
 
 #container {
